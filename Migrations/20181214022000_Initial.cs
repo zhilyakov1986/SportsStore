@@ -14,7 +14,7 @@ namespace SportsStore.Migrations
                     ProductId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Name = table.Column<string>(nullable: true),
-                    Descripiton = table.Column<string>(nullable: true),
+                    Description = table.Column<string>(nullable: true),
                     Price = table.Column<decimal>(nullable: false),
                     Category = table.Column<string>(nullable: true)
                 },

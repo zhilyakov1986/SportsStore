@@ -26,7 +26,7 @@ namespace SportsStore.Migrations
 
                     b.Property<string>("Category");
 
-                    b.Property<string>("Descripiton");
+                    b.Property<string>("Description");
 
                     b.Property<string>("Name");
 

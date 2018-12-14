@@ -9,7 +9,7 @@ using SportsStore.Models;
 namespace SportsStore.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20181213014708_Initial")]
+    [Migration("20181214022000_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -28,7 +28,7 @@ namespace SportsStore.Migrations
 
                     b.Property<string>("Category");
 
-                    b.Property<string>("Descripiton");
+                    b.Property<string>("Description");
 
                     b.Property<string>("Name");
 
